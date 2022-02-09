@@ -9,7 +9,7 @@ from foaas import fuck
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
-
+print("Why Hello There")
 client = discord.Client()
 #-----------------================print when the bot joins/goes online================-----------------
 @client.event
